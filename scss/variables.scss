@@ -1,0 +1,39 @@
+/*mixin*/
+@mixin sizes($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
+@mixin margin($top, $bottom){
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
+
+@mixin box-shadow {
+    box-shadow: 2px 2px #390503;
+}
+
+@mixin momentos-mobile {
+    max-width: 100%;
+    height: auto;
+}
+
+@mixin playlist-desktop {
+    
+}
+
+@mixin playlist-mobile {
+    font-size: 1.5rem;
+    text-align: center;
+    background-image: url("../images/3EQO.gif");
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+@mixin form-texts {
+    text-align: center;
+    color: white;
+    margin: 1rem;
+}
